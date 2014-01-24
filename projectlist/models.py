@@ -8,4 +8,5 @@ class Project(models.Model):
     github_url = models.CharField(max_length=255, blank=True)
     pizza_count = models.IntegerField(null=True, blank=True)
     facebook_event_url = models.CharField(max_length=255, blank=True)
+    # percentage_complete = models.FloatField()
     # attendance
